@@ -1,0 +1,7 @@
+.ImageList{
+    width: 77vw;
+    display: flex;  
+    margin: auto;
+    padding-top: 1rem;
+    flex-wrap: wrap;
+}

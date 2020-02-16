@@ -1,0 +1,30 @@
+.WeatherDataBox{
+    border-style: ridge;
+    width:100%;
+    height:100%;
+    display:flex;
+    box-sizing:border-box;
+    margin-top: 1rem;
+    cursor: pointer;
+    background-image: url('https://www-gcv.azureedge.net/media/1512/meteo_calypso.jpg?preset=block-image-default');
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;              /* optional, center the image */
+}
+.WeatherDataBox img{
+    width:20%;
+    height:100%;
+}
+.WeatherDataInfo{
+    margin:auto;
+    width: 100%;
+    box-sizing:border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.space{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
